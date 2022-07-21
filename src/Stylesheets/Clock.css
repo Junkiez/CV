@@ -1,0 +1,6 @@
+.clock-container h3 {
+    /*color: yellowgreen;*/
+    border-style: solid;
+    padding: 0 0.5rem;
+    box-shadow: 0 0 3px #0ff;
+}

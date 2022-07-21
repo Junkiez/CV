@@ -1,0 +1,14 @@
+.MuiStepLabel-label {
+    color: #0ff !important;
+    font-family: 'Bebas Neue', cursive !important;
+    text-shadow: 0 0 3px rgba(0,255,255,0.5);
+}
+
+h4{
+    color: rgba(255, 108, 100, 0.7);
+    text-shadow: none;
+}
+
+p{
+    text-align: right;
+}

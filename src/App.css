@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.App {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+    margin-top: 3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#root {
+    display: flex;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    animation: 2s linear blure;
+}
+
+@keyframes blure {
+    from {
+        filter: blur(1px) hue-rotate(-30deg);
+    }
+    to {
+        filter: none;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #283434;
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.App-link {
+    color: #61dafb;
+}

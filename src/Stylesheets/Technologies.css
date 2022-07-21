@@ -1,0 +1,123 @@
+li img {
+    filter: invert(0%) sepia(96%) saturate(8%) hue-rotate(21deg) brightness(0%) contrast(100%) invert(77%) sepia(47%) saturate(3724%) hue-rotate(312deg) brightness(90%) contrast(124%) !important;
+    box-shadow: 0 0 3px #64ffff;
+    width: auto;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+li {
+    border-right-style: groove;
+    border-width: 7px;
+    border-color: #0ff;
+    box-shadow: 0 0 3px #64ffff;
+    background-color: rgba(100, 237, 255, 0.13);
+    height: 100%;
+    width: 100%;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 5rem 7rem auto;
+    text-align: left;
+    vertical-align: middle;
+    align-items: center;
+    /*
+    display: flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;*/
+    padding: 1rem 0 1rem 1rem;
+}
+
+progress{
+    background-color: transparent;
+    border-right-style: groove;
+    border-right-color: #61dafb;
+    border-right-width: 4px;
+    vertical-align: middle;
+    height: 1rem;
+    width: 6rem;
+    accent-color: #61dafb;
+    margin-left: 1rem;
+    text-align: right;
+    clear:right;
+}
+
+::-webkit-progress-value {
+    background-color: #61dafb;
+}
+
+::-moz-progress-bar {
+    background-color: #61dafb;
+}
+
+li{
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0 0.5rem 0.5rem;
+}
+
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+
+    column-gap: 3rem;
+    padding: 1rem;
+    width: 90%;
+}
+
+@media screen and (max-width: 480px) {
+    ul {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+
+        padding: 1rem;
+    }
+
+    li{
+        height: 100%;
+        width: 95%;
+        list-style-type: none;
+        margin: 0 0.5rem 0.5rem;
+    }
+
+    progress{
+        background-color: transparent;
+        border-right-style: groove;
+        border-right-color: #61dafb;
+        border-right-width: 4px;
+        vertical-align: middle;
+        height: 1rem;
+        width: 7rem;
+        accent-color: #61dafb;
+        margin-left: 1rem;
+        text-align: right;
+        clear:right;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 820px) {
+    li{
+        height: 100%;
+        width: 95%;
+        list-style-type: none;
+        margin: 0 0.5rem 0.5rem;
+    }
+
+    progress {
+        background-color: transparent;
+        border-right-style: groove;
+        border-right-color: #61dafb;
+        border-right-width: 4px;
+        vertical-align: middle;
+        height: 1rem;
+        width: 7rem;
+        accent-color: #61dafb;
+        margin-left: 1rem;
+        text-align: right;
+        clear:right;
+    }
+}
