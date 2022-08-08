@@ -55,24 +55,10 @@ function App() {
                     <Radar/>
                     <Technologies/>
                 </article>
-                <span>Experience</span>
-                <article className="flex-row">
-                    <Stepper/>
-                </article>
-                <span>Education</span>
-                <article className="flex-row">
-                </article>
-                <span>Projects</span>
-                <article className="flex-row">
-                    <Clock/>
-                    <Blocks string={["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]}/>
-                    <Pad/>
-                </article>
+                
             </main>
             <footer className="flex-row">
                 <Tessaract/>
-                <span>Contacts</span>
-                <h5>Heil</h5>
             </footer>
         </div>
     );
