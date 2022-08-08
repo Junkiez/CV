@@ -94,7 +94,7 @@ const technologies = [
 function Technologies() {
     return (
         <div className="Technologies">
-            <h3>I use:</h3>
+            <h3></h3>
             <ul>
                 {technologies.map((tech, index) => (
                     <li>
