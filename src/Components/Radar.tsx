@@ -34,13 +34,13 @@ function Radar(props: any) {
                 labels: labels,
                 datasets: [
                     {
-                        label: 'Dataset 1',
+                        label: '',
                         data: [12, 19, 9, 5, 15, 10, 11],
                         borderColor: CHART_COLORS.red,
                         backgroundColor: transparentize(255, 108, 100, 0.3),
                     },
                     {
-                        label: 'Dataset 2',
+                        label: '',
                         data: [13, 16, 9, 7, 11, 8, 9],
                         borderColor: CHART_COLORS.blue,
                         backgroundColor: transparentize(0, 255, 255, 0.3),
