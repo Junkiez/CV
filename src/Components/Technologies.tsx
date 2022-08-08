@@ -77,6 +77,18 @@ const technologies = [
         "name": "NPM",
         "value": "10"
     },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg",
+        "alt": "python",
+        "name": "Python",
+        "value": "70"
+    },
+        {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+        "alt": "php",
+        "name": "PHP",
+        "value": "25"
+    },
 ]
 
 function Technologies() {
