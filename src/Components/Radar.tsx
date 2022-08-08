@@ -51,7 +51,8 @@ function Radar(props: any) {
                 responsive: true,
                 plugins: {
                     title: {
-                        display: false                     '
+                        display: true,
+                        text: 'Chart.js Radar Chart'                   '
                     }
                 },
                 scale: {
