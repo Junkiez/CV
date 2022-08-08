@@ -59,7 +59,9 @@ function App() {
             </main>
             <footer className="flex-row">
                 <Tessaract/>
-                <a href="https://github.com/Junkiez">Github</a>
+                <a href="https://t.me/KAZE_F"><img class="icon" src="src/telegram.png" alt="telegram icon">&ensp;Telegram</a>
+                <a href="mailto:<KAZE>photoartcode@gmail.com?subject="><img class="icon" src="src/gmail.png" alt="gmail icon">&ensp;Email</a>
+                <a href="https://github.com/Junkiez"><img class="icon" src="src/github-sign.png" alt="github icon">&ensp;GitHub</a>
             </footer>
         </div>
     );
