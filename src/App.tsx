@@ -50,7 +50,7 @@ function App() {
             </header>
             <Separator title="Skills" />
             <main>
-                <span>Skills</span>
+                <span></span>
                 <article className="flex-row">
                     <Radar/>
                     <Technologies/>
