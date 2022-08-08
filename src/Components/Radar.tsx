@@ -52,7 +52,7 @@ function Radar(props: any) {
                 plugins: {
                     title: {
                         display: true,
-                        text: 'Radar'                        '
+                        text: 'Radar plot'                        '
                     }
                 },
                 scale: {
