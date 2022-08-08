@@ -59,6 +59,7 @@ function App() {
             </main>
             <footer className="flex-row">
                 <Tessaract/>
+                <a href="https://github.com/Junkiez">Github</a>
             </footer>
         </div>
     );
