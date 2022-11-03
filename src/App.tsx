@@ -43,8 +43,8 @@ function App() {
                     <h1 className="glitch_light">Curriculum vitae ⁘ ⌨</h1>
                     <p id="title-description">
                         <h2 id="subtitle">Fullstack developer</h2>
-                        Lorem Ipsum is Lorem Ipsum, aute iri elementum. Lorem Ipsum is aute iri elementum. Lorem Ipsum
-                        is also known as "The Lorem Ipsum", meaning Lorem Ipsum
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim libero, pulvinar ut gravida non, 
+                            vestibulum efficitur sem. Cras porta turpis risus, ac aliquet nisl vulputate id.
                     </p>
                 </div>
             </header>
