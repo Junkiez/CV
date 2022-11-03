@@ -62,6 +62,7 @@ function App() {
                 <a href="https://t.me/KAZE_F">&ensp;Telegram</a>
                 <a href="mailto:<KAZE>junkiezet@gmail.com?subject=">&ensp;Email</a>
                 <a href="https://github.com/Junkiez">&ensp;GitHub</a>
+                <Clock/>
             </footer>
         </div>
     );
