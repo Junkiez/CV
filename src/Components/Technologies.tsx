@@ -6,88 +6,88 @@ import StepContent from "@mui/material/StepContent";
 
 const technologies = [
     {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
-        "alt": "go",
-        "name": "Go",
-        "value": "40"
-    },
-    {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
-        "alt": "js",
-        "name": "JS",
-        "value": "55"
-    },
-    {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         "alt": "react",
         "name": "React",
         "value": "40"
     },
     {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg",
+        "alt": "js",
+        "name": "JS",
+        "value": "65"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+        "alt": "go",
+        "name": "Go",
+        "value": "35"
+    },
+    {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain.svg",
         "alt": "redis",
         "name": "Redis",
-        "value": "20"
+        "value": "25"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        "alt": "github",
+        "name": "Github",
+        "value": "50"
     },
     {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
         "alt": "css3",
         "name": "CSS",
-        "value": "70"
-    },
-    {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
-        "alt": "html5",
-        "name": "HTML",
-        "value": "85"
-    },
-    {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
-        "alt": "go",
-        "name": "MySQL",
-        "value": "25"
-    },
-    {
-        "src": "https://adbdatabase.000webhostapp.com/webstorm_logo_icon_144744.svg",
-        "alt": "go",
-        "name": "WebStorm",
-        "value": "65"
-    },
-    {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-plain.svg",
-        "alt": "go",
-        "name": "VSCode",
-        "value": "40"
-    },
-    {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-        "alt": "go",
-        "name": "Github",
-        "value": "45"
-    },
-    {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
-        "alt": "go",
-        "name": "Heroku",
         "value": "75"
     },
     {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-        "alt": "go",
-        "name": "NPM",
-        "value": "10"
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
+        "alt": "php",
+        "name": "PHP",
+        "value": "35"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain.svg",
+        "alt": "vue",
+        "name": "VUE",
+        "value": "60"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+        "alt": "ts",
+        "name": "TS",
+        "value": "40"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg",
+        "alt": "cs",
+        "name": "C#",
+        "value": "70"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
+        "alt": "mysql",
+        "name": "MySQL",
+        "value": "35"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-plain.svg",
+        "alt": "cloud",
+        "name": "CLOUD",
+        "value": "50"
+    },
+    {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        "alt": "sass",
+        "name": "SASS",
+        "value": "45"
     },
     {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg",
         "alt": "python",
         "name": "Python",
         "value": "70"
-    },
-        {
-        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg",
-        "alt": "php",
-        "name": "PHP",
-        "value": "25"
     },
 ]
 

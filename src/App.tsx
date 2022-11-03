@@ -48,14 +48,14 @@ function App() {
                     </p>
                 </div>
             </header>
-            <Separator title="Skills" />
             <main>
+                <Separator title="Technologies" />
                 <span></span>
                 <article className="flex-row">
                     <Radar/>
                     <Technologies/>
                 </article>
-                
+                <Separator title="Experience" />
             </main>
             <footer className="flex-row">
                 <Tessaract/>

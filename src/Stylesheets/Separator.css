@@ -1,5 +1,6 @@
 div.Separator {
-    width: 65%;
+    width: 95%;
+    align-items: center;
 }
 
 div.Separator hr{
@@ -13,7 +14,8 @@ div.Separator hr{
 }
 
 div.Separator h4 {
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-left: 7rem;
     margin-bottom: 1px;
     text-align: left;
     font-size: 2rem;

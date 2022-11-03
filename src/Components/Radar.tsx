@@ -8,7 +8,7 @@ import Draw from "../Scripts/Draw";
 function Radar(props: any) {
     const DATA_COUNT = 7;
     const NUMBER_CFG = {count: DATA_COUNT, min: 0, max: 100};
-    const labels = ["1", "2", "3", "4", "5", "6", "7"];
+    const labels = ["react | vue", "js | ts", "go | cs", "redis | mysql", "github | cloud", "css | sass", "php | python"];
     const CHART_COLORS = {
         red: 'rgb(255, 108, 100)',
         orange: 'rgb(255, 159, 64)',
@@ -35,13 +35,13 @@ function Radar(props: any) {
                 datasets: [
                     {
                         label: '',
-                        data: [12, 19, 9, 5, 15, 10, 11],
+                        data: [40, 65, 35, 25, 50, 75, 35],
                         borderColor: CHART_COLORS.red,
                         backgroundColor: transparentize(255, 108, 100, 0.3),
                     },
                     {
                         label: '',
-                        data: [13, 16, 9, 7, 11, 8, 9],
+                        data: [60, 40, 70, 35, 50, 45, 70],
                         borderColor: CHART_COLORS.blue,
                         backgroundColor: transparentize(0, 255, 255, 0.3),
                     }
@@ -52,7 +52,7 @@ function Radar(props: any) {
                 plugins: {
                     title: {
                         display: true,
-                        text: 'Chart.js Radar Chart'
+                        text: 'Tech Radar'
                     }
                 },
                 scale: {
