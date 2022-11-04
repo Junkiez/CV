@@ -55,7 +55,6 @@ function App() {
                     <Radar/>
                     <Technologies/>
                 </article>
-                <Separator title="Experience" />
             </main>
             <footer className="flex-row">
                 <Tessaract/>
