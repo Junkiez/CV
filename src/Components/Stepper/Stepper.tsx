@@ -19,7 +19,7 @@ function CustomStepper({ steps }:{ steps:{label:string,description:string}[] }) 
     };
 
     return (
-        <Box sx={{marginLeft:"1rem", maxWidth: 575, minWidth: 375 }}>
+        <Box sx={{marginLeft:"1rem", maxWidth: 775, minWidth: 375 }}>
             <Stepper activeStep={activeStep} orientation="vertical">
                 {steps.map((step, index) => (
                     <Step key={step.label}>

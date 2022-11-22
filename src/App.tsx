@@ -12,6 +12,7 @@ import './Components/Loading/Loading';
 import "./Stylesheets/AppGrid.css";
 import './Stylesheets/Glitch.css'
 import './Stylesheets/App.css';
+import Packman from "./Components/Packman";
 
 const technologies = [
     {
@@ -103,17 +104,31 @@ const technologies = [
 const projects = [
     {
         src: "https://photoartcode.000webhostapp.com/favicon.ico",
-        alt: "logo",
+        descr: "React, Sass, router, api, typescript, adaptive",
         name: "AniBucket",
         url: "https://ani-bucket-dsv7yxcns-junkiez.vercel.app",
         github: "https://github.com/Junkiez/ANI-BUCKET"
     },
     {
-        src: "https://photoartcode.000webhostapp.com/favicon.ico",
-        alt: "logo",
-        name: "AniBucket",
-        url: "https://ani-bucket-dsv7yxcns-junkiez.vercel.app",
-        github: "https://github.com/Junkiez/ANI-BUCKET"
+        src: "https://raw.githubusercontent.com/Junkiez/REST-API/983e76d25d3dc5576642631f4a1bf1e18c760796/public/vite.svg",
+        descr: "Express, sequelize, vue, postgres, vite, aws",
+        name: "RestApi",
+        url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
+        github: "https://github.com/Junkiez/REST-API"
+    },
+    {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/modx/modx-plain.svg",
+        descr: "Python, redis, flask, canvas, telegramWebApi",
+        name: "Telegram WebApi bot",
+        url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
+        github: "https://github.com/Junkiez/IMAGE-FILTER-BOT"
+    },
+    {
+        src: "https://raw.githubusercontent.com/Junkiez/CRYPTONOMY/main/static/favicon.ico",
+        descr: "  Python, flask, redis, vue, vuesax, pycoingecko",
+        name: "CRYPTONOMY",
+        url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
+        github: "https://github.com/Junkiez/CRYPTONOMY"
     }
 ]
 
@@ -175,19 +190,16 @@ function App() {
                 <Separator title="Education & Experience"/>
                 <article className="flex-row">
                     <Stepper steps={steps}/>
-                    <Sketch/>
+                    <Packman/>
                 </article>
                 <Separator title="Projects"/>
                 <article className="flex-row">
                     <ul>
                         {projects.map((p, index) => (
-                            <li onClick={()=>window.location.href = p.url}>
-                                <img src={p.src} alt={p.alt} />{p.name}
+                            <li onClick={()=>window.location.href = p.github}>
+                                <img src={p.src} alt={p.name} />{p.name}
                                 {/*<a href={p.github}>github</a>*/}
-                                <pre>
-                                    Lorem ipsum as dolor sit amet,
-                                    consectetur
-                                </pre>
+                                <pre>{p.descr}</pre>
                             </li>
                         ))}
                     </ul>
