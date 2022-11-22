@@ -8,7 +8,7 @@ function Technologies({ technologies }:{ technologies: {src:string,alt:string,na
     return (
         <div className="Technologies">
             <h3></h3>
-            <ul>
+            <ul className={"double"}>
                 {technologies.map((tech, index) => (
                     <li>
                         <img src={tech.src} alt={tech.alt} />{tech.name}

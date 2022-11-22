@@ -22,6 +22,7 @@
     "material-ui-icons": "^1.0.0-beta.36",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-p5": "^1.3.33",
     "react-scripts": "5.0.1",
     "react-spline": "^1.2.1",
     "react-three": "^0.9.7",

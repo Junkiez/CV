@@ -7,6 +7,7 @@ import Loading from "./Components/Loading/Loading";
 import Drawer from "./Components/Drawer/Drawer";
 import Clock from "./Components/Clock/Clock";
 import Radar from "./Components/Radar/Radar";
+import Sketch from "./Components/Sketch";
 import './Components/Loading/Loading';
 import "./Stylesheets/AppGrid.css";
 import './Stylesheets/Glitch.css'
@@ -99,6 +100,24 @@ const technologies = [
     },
 ]
 
+const projects = [
+    {
+        src: "https://photoartcode.000webhostapp.com/favicon.ico",
+        alt: "logo",
+        name: "AniBucket",
+        url: "https://ani-bucket-dsv7yxcns-junkiez.vercel.app",
+        github: "https://github.com/Junkiez/ANI-BUCKET"
+    },
+    {
+        src: "https://photoartcode.000webhostapp.com/favicon.ico",
+        alt: "logo",
+        name: "AniBucket",
+        url: "https://ani-bucket-dsv7yxcns-junkiez.vercel.app",
+        github: "https://github.com/Junkiez/ANI-BUCKET"
+    }
+]
+
+
 const steps = [
     {
         label: 'University. 2019-',
@@ -156,10 +175,22 @@ function App() {
                 <Separator title="Education & Experience"/>
                 <article className="flex-row">
                     <Stepper steps={steps}/>
+                    <Sketch/>
                 </article>
                 <Separator title="Projects"/>
                 <article className="flex-row">
-                    <Technologies technologies={technologies}/>
+                    <ul>
+                        {projects.map((p, index) => (
+                            <li onClick={()=>window.location.href = p.url}>
+                                <img src={p.src} alt={p.alt} />{p.name}
+                                {/*<a href={p.github}>github</a>*/}
+                                <pre>
+                                    Lorem ipsum as dolor sit amet,
+                                    consectetur
+                                </pre>
+                            </li>
+                        ))}
+                    </ul>
                     <p id="title-description">
                         Check out more on my <a href="https://github.com/Junkiez">github</a>.
                     </p>
