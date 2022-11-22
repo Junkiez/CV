@@ -104,28 +104,28 @@ const technologies = [
 const projects = [
     {
         src: "https://photoartcode.000webhostapp.com/favicon.ico",
-        descr: "React, Sass, router, api, typescript, adaptive",
+        descr: <>{"React, Sass, router, api, "}<br/>{"typescript, adaptive"}</>,
         name: "AniBucket",
         url: "https://ani-bucket-dsv7yxcns-junkiez.vercel.app",
         github: "https://github.com/Junkiez/ANI-BUCKET"
     },
     {
         src: "https://raw.githubusercontent.com/Junkiez/REST-API/983e76d25d3dc5576642631f4a1bf1e18c760796/public/vite.svg",
-        descr: "Express, sequelize, vue, postgres, vite, aws",
+        descr: <>{"Express, sequelize, vue, vite,"}<br/>{" postgres, aws"}</>,
         name: "RestApi",
         url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
         github: "https://github.com/Junkiez/REST-API"
     },
     {
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/modx/modx-plain.svg",
-        descr: "Python, redis, flask, canvas, telegramWebApi",
+        descr: <>{"Python, redis, flask, canvas,"}<br/>{" telegramWebApi"}</>,
         name: "Telegram WebApi bot",
         url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
         github: "https://github.com/Junkiez/IMAGE-FILTER-BOT"
     },
     {
         src: "https://raw.githubusercontent.com/Junkiez/CRYPTONOMY/main/static/favicon.ico",
-        descr: "  Python, flask, redis, vue, vuesax, pycoingecko",
+        descr: <>{"  Python, flask, redis, vue,"}<br/>{" vuesax, pycoingecko"}</>,
         name: "CRYPTONOMY",
         url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
         github: "https://github.com/Junkiez/CRYPTONOMY"
