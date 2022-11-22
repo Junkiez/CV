@@ -139,6 +139,11 @@ const steps = [
         description: `National Forestry University of Ukraine. Speciality - Computer Science`,
     },
     {
+        label: 'Freelance. 2020-',
+        description:
+            'Work as full stack developer on freelance',
+    },
+    {
         label: 'Intellias. 2021-2022',
         description:
             'Course of react frontend developer',
