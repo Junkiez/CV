@@ -107,50 +107,62 @@ const projects = [
         descr: <>{"React, Sass, router, api, "}<br/>{"typescript, adaptive"}</>,
         name: "AniBucket",
         url: "https://ani-bucket-dsv7yxcns-junkiez.vercel.app",
-        github: "https://github.com/Junkiez/ANI-BUCKET"
+        github: "https://github.com/Junkiez/ANI-BUCKET",
+        title: "Mini react spa used data about anime.",
     },
     {
         src: "https://raw.githubusercontent.com/Junkiez/REST-API/983e76d25d3dc5576642631f4a1bf1e18c760796/public/vite.svg",
         descr: <>{"Express, sequelize, vue, vite,"}<br/>{" postgres, aws"}</>,
         name: "RestApi",
         url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
-        github: "https://github.com/Junkiez/REST-API"
-    },
-    {
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/modx/modx-plain.svg",
-        descr: <>{"Python, redis, flask, canvas,"}<br/>{" telegramWebApi"}</>,
-        name: "Telegram WebApi bot",
-        url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
-        github: "https://github.com/Junkiez/IMAGE-FILTER-BOT"
+        github: "https://github.com/Junkiez/REST-API",
+        title: "Test task in Softwarenetic.",
     },
     {
         src: "https://raw.githubusercontent.com/Junkiez/CRYPTONOMY/main/static/favicon.ico",
         descr: <>{"  Python, flask, redis, vue,"}<br/>{" vuesax, pycoingecko"}</>,
         name: "CRYPTONOMY",
         url: "https://wx2p2uqbwg.us-east-1.awsapprunner.com/",
-        github: "https://github.com/Junkiez/CRYPTONOMY"
+        github: "https://github.com/Junkiez/CRYPTONOMY",
+        title: "Crypto dashboard full-stack application.",
+    },
+    {
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+        descr: <>{"  Typescript, nestjs, typeorm, "}<br/>{" react, redux, mui, oauth"}</>,
+        name: "Workplace booking",
+        url: "",
+        github: "https://github.com/Softwarenetic/officespace-booking",
+        title: "Project developed during internship in Softwarenetic. Works more with backend part of service.",
     }
 ]
 
 
 const steps = [
     {
-        label: 'University. 2019-',
+        label: 'University. 2019 till now',
         description: `National Forestry University of Ukraine. Speciality - Computer Science`,
     },
     {
-        label: 'Freelance. 2020-',
+        label: 'Freelance. 2021 till now',
         description:
             'Work as full stack developer on freelance',
     },
     {
-        label: 'Intellias. 2021-2022',
+        label: 'Intellias. 2021-2022 (3 month)',
         description:
-            'Course of react frontend developer',
+            'Course of react web development',
     },
     {
-        label: 'AliksIT 2022-',
-        description: `Work as a junior front-end developer`,
+        label: 'AliksIT 2022 (2 month)',
+        description: `Work as a trainee web developer`,
+    },
+    {
+        label: 'AliksIT 2022 (4 month)',
+        description: `Work as a junior web developer`,
+    },
+    {
+        label: 'Softwarenetic 2022-2023 (1 month)',
+        description: `Internship for a position of a full stack developer`,
     }
 ];
 
@@ -199,9 +211,9 @@ function App() {
                 </article>
                 <Separator title="Projects"/>
                 <article className="flex-row">
-                    <ul>
+                    <ul className={"double"}>
                         {projects.map((p, index) => (
-                            <li onClick={()=>window.location.href = p.github}>
+                            <li style={{display: p.title===''? 'hidden':"" }} title={p.title} onClick={()=>window.location.href = p.github}>
                                 <img src={p.src} alt={p.name} />{p.name}
                                 {/*<a href={p.github}>github</a>*/}
                                 <pre>{p.descr}</pre>
@@ -209,6 +221,7 @@ function App() {
                         ))}
                     </ul>
                     <p id="title-description">
+                        (hover to see description)<br/>
                         Check out more on my <a href="https://github.com/Junkiez">github</a>.
                     </p>
                 </article>
